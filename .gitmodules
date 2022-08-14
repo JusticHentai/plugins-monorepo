@@ -2,3 +2,7 @@
 	path = packages/vite/vite-plugin-simple-env
 	url = git@github.com:JusticHentai/vite-plugin-simple-env.git
 	branch = main
+[submodule "packages/vite/vite-plugins-debug"]
+	path = packages/vite/vite-plugins-debug
+	url = git@github.com:JusticHentai/vite-plugins-debug.git
+	branch = main
