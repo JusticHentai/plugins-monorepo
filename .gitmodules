@@ -1,0 +1,4 @@
+[submodule "packages/vite/vite-plugin-simple-env"]
+	path = packages/vite/vite-plugin-simple-env
+	url = git@github.com:JusticHentai/vite-plugin-simple-env.git
+	branch = main
