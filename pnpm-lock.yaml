@@ -32,7 +32,7 @@ importers:
       rollup-plugin-terser: ^7.0.2
       rollup-plugin-typescript2: ^0.32.1
       typescript: ^4.7.4
-      vite: ^3.0.4
+      vite: ^3.0.8
     devDependencies:
       '@babel/core': 7.18.10
       '@babel/plugin-transform-runtime': 7.18.10_@babel+core@7.18.10
@@ -48,7 +48,7 @@ importers:
       rollup-plugin-terser: 7.0.2_rollup@2.77.3
       rollup-plugin-typescript2: 0.32.1_u7uwnjpwzdscdmf57dt35g5b44
       typescript: 4.7.4
-      vite: 3.0.7
+      vite: 3.0.8
 
   packages/vite/vite-plugins-debug:
     specifiers:
@@ -60,7 +60,7 @@ importers:
       postcss-pxtorem: ^6.0.0
       sass: ^1.54.4
       typescript: ^4.7.4
-      vite: ^3.0.4
+      vite: ^3.0.8
       vue: ^3.2.37
       vue-tsc: ^0.39.5
     dependencies:
@@ -68,13 +68,13 @@ importers:
     devDependencies:
       '@justichentai/vite-plugin-simple-env': link:../vite-plugin-simple-env
       '@types/node': 18.7.3
-      '@vitejs/plugin-vue': 3.0.3_vite@3.0.7+vue@3.2.37
+      '@vitejs/plugin-vue': 3.0.3_vite@3.0.8+vue@3.2.37
       cross-env: 7.0.3
       postcss: 8.4.16
       postcss-pxtorem: 6.0.0_postcss@8.4.16
       sass: 1.54.4
       typescript: 4.7.4
-      vite: 3.0.7_sass@1.54.4
+      vite: 3.0.8_sass@1.54.4
       vue-tsc: 0.39.5_typescript@4.7.4
 
 packages:
@@ -1624,14 +1624,14 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/3.0.3_vite@3.0.7+vue@3.2.37:
+  /@vitejs/plugin-vue/3.0.3_vite@3.0.8+vue@3.2.37:
     resolution: {integrity: sha512-U4zNBlz9mg+TA+i+5QPc3N5lQvdUXENZLO2h0Wdzp56gI1MWhqJOv+6R+d4kOzoaSSq6TnGPBdZAXKOe4lXy6g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.0.7_sass@1.54.4
+      vite: 3.0.8_sass@1.54.4
       vue: 3.2.37
     dev: true
 
@@ -4021,8 +4021,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite/3.0.7:
-    resolution: {integrity: sha512-dILhvKba1mbP1wCezVQx/qhEK7/+jVn9ciadEcyKMMhZpsuAi/eWZfJRMkmYlkSFG7Qq9NvJbgFq4XOBxugJsA==}
+  /vite/3.0.8:
+    resolution: {integrity: sha512-AOZ4eN7mrkJiOLuw8IA7piS4IdOQyQCA81GxGsAQvAZzMRi9ZwGB3TOaYsj4uLAWK46T5L4AfQ6InNGlxX30IQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4048,8 +4048,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/3.0.7_sass@1.54.4:
-    resolution: {integrity: sha512-dILhvKba1mbP1wCezVQx/qhEK7/+jVn9ciadEcyKMMhZpsuAi/eWZfJRMkmYlkSFG7Qq9NvJbgFq4XOBxugJsA==}
+  /vite/3.0.8_sass@1.54.4:
+    resolution: {integrity: sha512-AOZ4eN7mrkJiOLuw8IA7piS4IdOQyQCA81GxGsAQvAZzMRi9ZwGB3TOaYsj4uLAWK46T5L4AfQ6InNGlxX30IQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
